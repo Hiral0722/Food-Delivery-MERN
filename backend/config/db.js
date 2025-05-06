@@ -4,6 +4,6 @@
 import mongoose from 'mongoose';
 
 export const connectDB = async ()=>{
-    await mongoose.connect('Add Your link').then(()=>console.log('db connected'));
+    await mongoose.connect('Add Your Mongodb link').then(()=>console.log('db connected'));
 
 } 
